@@ -170,8 +170,11 @@ function hideLoader() {
 function displayWeather(data){
     showLoader();
         cityName.innerHTML = data.name;
+        
         //country image
-
+         let countryCode=data.sys.country;
+        countryImg.src = `https://flagsapi.com/${countryCode}/flat/64.png`;
+       
         weatherMain.innerHTML = data.weather[0].main;
 
         let iconid = data.weather[0].icon;
