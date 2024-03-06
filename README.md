@@ -13,8 +13,6 @@ Welcome to the Weather App project! This web application provides real-time weat
 
 ## Demo
 
-![Weather App Demo](demo.png)
-
 Check out the live demo [here](https://weather-apps18.netlify.app/).
 
 ## Features
